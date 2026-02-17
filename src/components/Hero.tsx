@@ -100,7 +100,7 @@ const Hero = () => {
 
               {/* Floating badges */}
               <div className="absolute -left-6 bottom-20 bg-card/90 backdrop-blur-sm border border-border px-4 py-2.5 rounded-lg shadow-lg">
-                <p className="text-minimal text-primary">TUT GRADUATE</p>
+                <p className="text-minimal text-primary">FULL STACK DEVELOPER</p>
               </div>
               <div className="absolute -right-4 top-16 bg-card/90 backdrop-blur-sm border border-border px-4 py-2.5 rounded-lg shadow-lg">
                 <p className="text-minimal text-accent">WIL @ ICEP</p>

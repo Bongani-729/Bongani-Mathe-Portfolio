@@ -47,7 +47,7 @@ const About = () => {
                 </p>
               </motion.div>
 
-              <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} custom={3} variants={fadeUp} className="mt-10 grid grid-cols-2 gap-6">
+              <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} custom={3} variants={fadeUp} className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="p-5 rounded-xl bg-card border border-border">
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
                     <span className="text-primary font-bold font-mono text-sm">01</span>
@@ -58,6 +58,13 @@ const About = () => {
                 <div className="p-5 rounded-xl bg-card border border-border">
                   <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center mb-3">
                     <span className="text-accent font-bold font-mono text-sm">02</span>
+                  </div>
+                  <h5 className="font-semibold text-sm mb-1">Experience</h5>
+                  <p className="text-xs text-muted-foreground leading-relaxed">Software Developer at Inesthood IT</p>
+                </div>
+                <div className="p-5 rounded-xl bg-card border border-border">
+                  <div className="w-10 h-10 rounded-lg bg-secondary/10 flex items-center justify-center mb-3">
+                    <span className="text-secondary font-bold font-mono text-sm">03</span>
                   </div>
                   <h5 className="font-semibold text-sm mb-1">Currently</h5>
                   <p className="text-xs text-muted-foreground leading-relaxed">WIL Intern at ICEP eMalahleni</p>
