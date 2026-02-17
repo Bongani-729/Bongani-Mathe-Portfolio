@@ -151,3 +151,27 @@ This project is open source and available under the [MIT License](LICENSE).
 Bongani Mathe - [Your Email] - [Your LinkedIn/Website]
 
 Project Link: [https://github.com/Bongani-729/Bongani-Mathe-Portfolio](https://github.com/Bongani-729/Bongani-Mathe-Portfolio)
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/09a14ae7-bd4a-415b-b22e-66bbeb1a9240) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+#
